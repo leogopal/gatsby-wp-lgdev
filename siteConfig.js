@@ -1,10 +1,10 @@
 module.exports = {
-  siteUrl: "https://wp-libre-preview.draftbox.co", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://leogopal.dev", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "Built with Draftbox", // This allows an alternative site title for meta data for pages.
-  siteDescriptionMeta: "New-age blogging platform", // This allows an alternative site description for meta data for pages.
+  siteTitleMeta: "Leo Gopal on Dev", // This allows an alternative site title for meta data for pages.
+  siteDescriptionMeta: "All things dev with leo gopal.", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
@@ -13,13 +13,6 @@ module.exports = {
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
-  apiUrl: "https://wordpress.theasdfghjkl.com",
-  subscribeWidget: {
-    visible: true,
-    title: "Subscribe to Draftbox",
-    helpText: "Get the latest posts delivered right to your inbox.",
-    successMessage: "Thanks for subscribing to Draftbox.",
-  },
   header: {
     navigation: [
       {
